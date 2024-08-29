@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Title -->
+    <title>Random Quote Generator</title>
+  </head>
+  <body>
+    <!-- Wrapper for Quote, Author, and Buttons -->
+    <div class="wrapper">
+      <!-- Header -->
+      <header>Quote of the Day</header>
+
+      <!-- Quote and Author Area -->
+      <div class="content">
+        <!-- Quote -->
+        <div class="quote-area flex">
+          <!-- Quote Icon -->
+          <i class="fa-solid fa-quote-left"></i>
+          <!-- Quote Text -->
+          <p class="quote">
+            Together we can change the world, just one random act of kindness at
+            a time.
+          </p>
+          <!-- Quote Icon -->
+          <i class="fa-solid fa-quote-right flex"></i>
+        </div>
+        <!-- Author Name -->
+        <div class="author flex">
+          <span>__</span>
+          <span class="name">Ron Hall</span>
+        </div>
+      </div>
+
+      <!-- Buttons Area -->
+      <div class="buttons">
+        <!-- Features -->
+        <div class="features flex">
+          <ul class="flex">
+            <!-- 1 -->
+            <li class="speech flex">
+              <i class="fa-solid fa-volume-high"></i>
+            </li>
+            <!-- 2 -->
+            <li class="copy flex">
+              <i class="fa-solid fa-copy"></i>
+            </li>
+            <!-- 3 -->
+            <li class="twitter flex">
+              <i class="fa-brands fa-x-twitter"></i>
+            </li>
+          </ul>
+
+          <!-- New Quote Button -->
+          <button>New Quote</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Script to Fetch Random Quote -->
+    <script src="script.js"></script>
+  </body>
+</html>
