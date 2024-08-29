@@ -53,11 +53,11 @@ How to Run the Project
 
        • New Quote: Click the "New Quote" button to fetch a random quote.
        
-       • Copy Quote: Click the "Copy Quote" button to copy the displayed quote to the clipboard.
+       • Copy Quote: Click the "Copy Icon" button to copy the displayed quote to the clipboard.
        
-       • Speak Quote: Click the "Speak Quote" button to hear the quote being read aloud.
+       • Speak Quote: Click the "Speaker Icon" button to hear the quote being read aloud.
        
-       • Tweet Quote: Click the "Tweet Quote" button to share the current quote on Twitter.
+       • Tweet Quote: Click the "X Icon" button to share the current quote on Twitter.
 
 File Structure
 
