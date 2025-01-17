@@ -40,7 +40,7 @@ A simple web application that generates random quotes, allows you to read them a
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/your-username/random-quote-generator.git
+    git clone https://github.com/sudhanshu-j/random-quote-generator.git
     ```
 
 2. **Navigate to the project directory**:
